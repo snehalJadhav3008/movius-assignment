@@ -35,27 +35,8 @@ const Home = () => {
       </div>
       <Divider />
       <div className="card-item">
-        <Grid columns={4} divided>
-          <Grid.Column>
-            <Card>
-              <Image src={Courasal} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Matthew</Card.Header>
-                <Card.Meta>
-                  <span className="date">Joined in 2015</span>
-                </Card.Meta>
-                <Card.Description>
-                  Matthew is a musician living in Nashville.
-                </Card.Description>
-              </Card.Content>
-              <Card.Content extra>
-                <a>
-                  <Icon name="user" />
-                  10 Friends
-                </a>
-              </Card.Content>
-            </Card>
-          </Grid.Column>
+        <Grid columns={3} divided>
+         
           <Grid.Column>
             <Card>
               <Image src={Courasal} wrapped ui={false} />

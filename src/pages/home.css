@@ -1,0 +1,42 @@
+.corousal-image{
+    width:auto;
+    display: flex;
+    margin:20px;
+}
+.corousal-image img{
+border-radius: 10px;
+}
+.ui.image img{
+    height:200px;
+}
+
+.corousal-heading p{
+    padding: 0 20px;
+    font-size:17px;
+   
+}
+
+.card-item{
+    margin-left: 45px;
+    z-index: -1;
+}
+
+.chatBot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 9999;
+    position: fixed;
+    left: 90%;
+    top: 90%;
+    bottom: 5%;
+    
+}
+#message-icon{
+    background-color: #6e48aa;
+    border-radius: 50%;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}

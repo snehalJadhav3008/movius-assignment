@@ -67,7 +67,7 @@ const Home = () => {
               <Grid.Column>
                 <Card>
                   <Image src={item.src} wrapped ui={false} />
-                    
+
                   <Card.Content>
                     <Card.Header>{item.name}</Card.Header>
                     <Card.Meta>

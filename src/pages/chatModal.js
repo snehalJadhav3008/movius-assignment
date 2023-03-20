@@ -8,6 +8,7 @@ import { chatBotContext } from "./../contextApi/chatBotContext";
 const ChatModal = () => {
   const [open, setOpen] = useState(false);
   const steps = useContext(chatBotContext);
+  
   const handleOnClick = () => {
     setOpen(!open);
   };
@@ -32,7 +33,7 @@ const ChatModal = () => {
         <ChatBot
           steps={steps}
           headerTitle="How can I help you?"
-          style={{ borderRadius: "0"}}
+          style={{ borderRadius: "0" }}
         />
       </Modal>
     </div>

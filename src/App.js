@@ -1,8 +1,8 @@
-import './App.css';
-import HeaderCOmponent from './components/header';
-import ChatModal from './pages/chatModal';
-import Home from './pages/home';
-import Bot from './contextApi/chatBotContext';
+import "./App.css";
+import HeaderCOmponent from "./components/header";
+import ChatModal from "./pages/chatModal";
+import Home from "./pages/home";
+import Bot from "./contextApi/chatBotContext";
 
 function App() {
   return (
@@ -10,10 +10,8 @@ function App() {
       <HeaderCOmponent />
       <Home />
       <Bot>
-      <ChatModal />
+        <ChatModal />
       </Bot>
-      
-     
     </div>
   );
 }

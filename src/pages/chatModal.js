@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { Button, Modal } from "semantic-ui-react";
 import ChatBot from "react-simple-chatbot";
 import "./home.css";
-import { chatBotContext } from "./chatBot";
+import { chatBotContext } from "./../contextApi/chatBotContext";
 
 const ChatModal = () => {
   const [open, setOpen] = useState(false);
@@ -20,7 +20,7 @@ const ChatModal = () => {
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
         open={open}
-        style={{ marginLeft: "60%" }}
+        id="chat-modal"
         trigger={
           <Button
             id="message-icon"
@@ -32,7 +32,7 @@ const ChatModal = () => {
         <ChatBot
           steps={steps}
           headerTitle="How can I help you?"
-          style={{ borderRadius: "0", margin: "0" }}
+          style={{ borderRadius: "0"}}
         />
       </Modal>
     </div>

@@ -1,43 +1,46 @@
-.corousal-image{
-    width:auto;
-    display: flex;
-    margin:20px;
+.corousal-image {
+  width: auto;
+  display: flex;
+  margin: 20px;
 }
-.corousal-image img{
-border-radius: 10px;
+.corousal-image img {
+  border-radius: 10px;
 }
-.ui.image img{
-    height:200px;
-}
-
-.corousal-heading p{
-    padding: 0 20px;
-    font-size:17px;
-   
+.ui.image img {
+  height: 200px;
 }
 
-.card-item{
-    margin-left: 45px;
-    z-index: -1;
+.corousal-heading p {
+  padding: 0 20px;
+  font-size: 17px;
 }
 
-.chatBot{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    z-index: 9999;
-    position: fixed;
-    left: 90%;
-    top: 90%;
-    bottom: 5%;
-    
+.card-item {
+  margin-left: 45px;
+  z-index: -1;
 }
-#message-icon{
-    background-color: #6e48aa;
-    border-radius: 50%;
-    color:#fff;
-    width: 60px;
-    height: 60px;
-    font-size: 23px;
-    margin-left: 70px;
+
+.chatBot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 9999;
+  position: fixed;
+  left: 90%;
+  top: 90%;
+  bottom: 5%;
+}
+
+#chat-modal{
+margin-left: 60%;
+}
+
+#message-icon {
+  background-color: #6e48aa;
+  border-radius: 50%;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  margin-left: 70px;
 }

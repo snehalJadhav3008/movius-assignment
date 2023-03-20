@@ -2,7 +2,7 @@ import './App.css';
 import HeaderCOmponent from './components/header';
 import ChatModal from './pages/chatModal';
 import Home from './pages/home';
-import Bot from './pages/chatBot';
+import Bot from './contextApi/chatBotContext';
 
 function App() {
   return (
